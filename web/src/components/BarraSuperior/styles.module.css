@@ -1,0 +1,30 @@
+.container {
+    background-color: #113D3B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 375px;
+    height: 88px;
+    padding: 12px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    flex-direction: row;
+    width: 64px;
+    height: 32px;
+    gap: 8px;
+}
+
+.button {
+    all: unset;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: gray;
+}
