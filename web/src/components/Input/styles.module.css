@@ -24,7 +24,7 @@
 
 .input {
     border: none;
-    outline: none;
+    outline: none; /*Propriedade do css para tirar a borda de dentro do input*/
     color: #0000007A;
     font-weight: 400;
     size: 14px;
