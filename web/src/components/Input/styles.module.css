@@ -19,12 +19,12 @@
 }
 
 .button:hover {
-    background-color: gray;
+    background-color: lightgray;
 }
 
 .input {
-    text-decoration: none;
     border: none;
+    outline: none;
     color: #0000007A;
     font-weight: 400;
     size: 14px;
