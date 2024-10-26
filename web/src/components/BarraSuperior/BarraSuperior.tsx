@@ -5,7 +5,7 @@ import { Input } from "@/components/Input/Input";
 
 
 import styles from "@/components/BarraSuperior/styles.module.css";
-import Combobox from '../Combobox/combobox';
+import Combobox from '@/components/Combobox/Combobox';
 
 
 export default function BarraSuperior() {
