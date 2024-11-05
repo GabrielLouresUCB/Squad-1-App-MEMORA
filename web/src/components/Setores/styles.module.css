@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.title {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 17px;
+}
+
+.subtitle {
+    color: #0000007A;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 22px;
+    padding-top: 5px;
+}
+
+.button {
+    border: none;
+    background-color: #eaeaea;
+    width: 142px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+    color: #3c3c3c;
+    line-height: 160%;
+}
