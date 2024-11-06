@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -50,7 +51,6 @@
     margin-top: 10px;
     font-size: 14px;
     padding: 5px;
-    border-radius: 4px;
     color: #fff;
     line-height: 160%;
     text-transform: uppercase;
@@ -84,7 +84,75 @@
     padding-top: 30px;
 }
 
+.containerTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px 20px;
+    width: 250px;
+}
+
+.lineTitle {
+    color:#2D8A87;
+    width: 100px;
+    border: solid 2px #2D8A87;
+}
+
+.textTitle {
+    color: black;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 22px;
+    padding-top: 20px;
+}
+
+.containerObservation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 335px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #2D8A87;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 22px;
+}
+
+.sign {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border-left: solid 4px white;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.nameSign {
+    font-weight: 600;
+}
+
+.containerBlog {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 375px;
+    padding: 20px;
+    background-color: #e5e5e5;
+}
+
+.atas {
+    margin: 20px auto;
+}
+
 .imageContainer {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,6 +160,8 @@
     width: 375px;
     height: 36px;
     padding: 9px;
+    bottom: 10px;
+    right: 0;
 }
 
 .image {
