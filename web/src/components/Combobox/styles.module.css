@@ -11,6 +11,7 @@
     left: 110px;
     background-color:#113D3B;
     box-shadow: 0px 4px 4px 0px #0000001F;
+    z-index: 1;
 }
 
 .title {
@@ -47,7 +48,7 @@
 
 .image {
     background-color: transparent;
-    rotate: 90deg;
+    rotate: 0deg;
     padding: 9px;
     cursor: pointer;
 }
@@ -67,4 +68,9 @@
     padding: 10px;
     gap: 8px;
     cursor: pointer;
+}
+
+.listItem:hover {
+
+    text-decoration: underline;
 }

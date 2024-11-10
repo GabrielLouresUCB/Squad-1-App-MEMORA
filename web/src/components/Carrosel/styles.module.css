@@ -10,11 +10,12 @@
 
 .image {
     background-color: #0000007A;
-    rotate: 180deg;
-    padding: 9px;
+    rotate: 270deg;
+    border-radius: 4px;   
 }
 
 .image1 {
     background-color: #0000007A;
-    padding: 9px;
+    border-radius: 4px;
+    rotate: 90deg;
 }

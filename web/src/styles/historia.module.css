@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 375px;
+}
+
+.historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 375px;
+    background: #2D8A87;
+    color: white;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: -2%;
+    padding: 30px;
+}
+
+.title {
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 12%;
+    padding-bottom: 20px;
+}
+
+.imageContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 375px;
+    height: 36px;
+    padding: 9px;
+    bottom: 10px;
+    right: 0;
+}
+
+.image {
+    /* background-color: #0000007A; */
+    rotate: 360deg;
+    border-radius: 4px;
+}

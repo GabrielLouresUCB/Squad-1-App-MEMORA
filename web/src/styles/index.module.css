@@ -165,7 +165,7 @@
 }
 
 .image {
-    background-color: #0000007A;
-    rotate: 270deg;
-    padding: 6px;
+    /* background-color: #0000007A; */
+    rotate: 360deg;
+    border-radius: 4px;
 }
