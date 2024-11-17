@@ -101,6 +101,18 @@
     font-weight: 600;
 }
 
+.contatIcons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 200px;
+}
+
+.socialHeader {
+    margin-top: 20px;
+}
+
 .social {
     display: flex;
     justify-content: center;

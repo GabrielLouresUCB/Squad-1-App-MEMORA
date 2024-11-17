@@ -76,6 +76,55 @@
     cursor: pointer;
 }
 
+.imageContat {
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.contato {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titleContat {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-left: solid 2px #2D8A87;
+    padding: 10px;
+}
+
+.lineContat {
+    padding-left: 20px;
+    border: solid 1px #2D8A87;
+    width: 355px;
+}
+
+.dataContat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.socialContat {
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+
+.linksContat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
 .imageContainer {
     position: absolute;
     display: flex;
@@ -87,6 +136,7 @@
     padding: 9px;
     bottom: 10px;
     right: 0;
+    cursor: pointer;
 }
 
 .image {

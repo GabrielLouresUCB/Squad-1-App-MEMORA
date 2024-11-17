@@ -7,6 +7,7 @@
     width: 375px;
     height: 88px;
     padding: 12px;
+    border-radius: 10px 15px 0 0;
 }
 
 .buttons {
