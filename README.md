@@ -7,10 +7,10 @@
 
 -> A solução foi implementada em react e typescript e futuramente esta solução será implementada em react-native, para futuramente o mobile ser implementado em react-native.
 
--> cada uma das páginas corresponde ao componentes das páginas.
+-> cada um dos componentes dentro do projeto corresponde a uma página do projeto
 
 # Como Executar
 
--> local onde está: https://localhost3000
+-> local onde está: http://localhost3000
 -> Comando para executar no terminal do gitbash: npm run dev
 -> Comando para parar o servidor, em caso de erro: CRTL C
