@@ -11,6 +11,6 @@
 
 # Como Executar
 
--> local onde está: http://localhost3000
--> Comando para executar no terminal do gitbash: npm run dev
+-> local onde está: http://localhost3000 <br>
+-> Comando para executar no terminal do gitbash: npm run dev <br>
 -> Comando para parar o servidor, em caso de erro: CRTL C
