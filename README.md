@@ -1,16 +1,35 @@
-# Squad 1 - App MEMORA
--> Este Projeto foi feito em react e typescript e com javascript, as telas foram feitas para conversarem entre si por meios de métodos que o react tem para linkar as páginas com outras páginas.
+# 1. Pré-requisitos:
+-> Certifique-se de que você tem instalado o Node.js (inclui o npm, que é usado para gerenciar dependências).
 
--> index.tsx: este arquivo foi criado com o intuito de receber os componentes do react para formar cada uma das páginas, pois este arquivo é uma base para cada uma das páginas.
+V verifique com:
 
--> components: componentes para formar cada página, pois cada componente corresponde a uma página diferente e os componentes conversam entre si.
+**node -v**
 
--> A solução foi implementada em react e typescript e futuramente esta solução será implementada em react-native, para futuramente o mobile ser implementado em react-native.
+**npm -v**
 
--> cada um dos componentes dentro do projeto corresponde a uma página do projeto
+-> Git instalado (se o projeto estiver em um repositório Git).
 
-# Como Executar
+# 2. Obtenha o projeto
+Se o projeto está em um repositório, clone-o com:
 
--> local onde está: http://localhost3000 <br>
--> Comando para executar no terminal do gitbash: npm run dev <br>
--> Comando para parar o servidor, em caso de erro: CRTL C
+**git clone [URL-DO-REPOSITORIO]**
+
+Depois, entre na pasta do projeto:
+
+**cd [nome-do-projeto]** (que no caso do nosso app será a pasta "web")
+
+# 3. Instale as dependências
+Dentro da pasta do projeto, rode o comando:
+
+**npm install**
+
+Esse comando vai instalar todas as dependências listadas no arquivo package.json.
+
+# 4. Inicie o projeto
+Depois que as dependências estiverem instaladas, rode:
+
+**npm run dev**
+
+Isso geralmente inicia o servidor de desenvolvimento e abre o projeto no navegador (geralmente em http://localhost:3000)
+
+Portanto, copie e cole "http://localhost:3000" no seu navegador que o app abrirá.
