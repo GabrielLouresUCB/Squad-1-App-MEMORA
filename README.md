@@ -33,3 +33,5 @@ Depois que as dependências estiverem instaladas, rode:
 Isso geralmente inicia o servidor de desenvolvimento e abre o projeto no navegador (geralmente em http://localhost:3000)
 
 Portanto, copie e cole "http://localhost:3000" no seu navegador que o app abrirá.
+
+Após abrí-lo troque da visualização web para mobile.
