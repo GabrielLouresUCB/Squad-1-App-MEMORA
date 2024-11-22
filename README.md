@@ -12,11 +12,11 @@ V verifique com:
 # 2. Obtenha o projeto
 Se o projeto está em um repositório, clone-o com:
 
-**git clone [URL-DO-REPOSITORIO]**
+**git clone https://github.com/GabrielLouresUCB/Squad-1-App-MEMORA.git**
 
 Depois, entre na pasta do projeto:
 
-**cd [nome-do-projeto]** (que no caso do nosso app será a pasta "web")
+**cd web**
 
 # 3. Instale as dependências
 Dentro da pasta do projeto, rode o comando:
