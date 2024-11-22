@@ -1,7 +1,7 @@
 # 1. Pré-requisitos:
--> Certifique-se de que você tem instalado o Node.js (inclui o npm, que é usado para gerenciar dependências).
+-> Node.js instalado (inclui o npm, que é usado para gerenciar dependências).
 
-V verifique com:
+Verifique com:
 
 **node -v**
 
@@ -10,7 +10,7 @@ V verifique com:
 -> Git instalado (se o projeto estiver em um repositório Git).
 
 # 2. Obtenha o projeto
-Se o projeto está em um repositório, clone-o com:
+Clone o projeto de nosso repositório com:
 
 **git clone https://github.com/GabrielLouresUCB/Squad-1-App-MEMORA.git**
 
